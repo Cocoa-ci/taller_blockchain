@@ -59,6 +59,10 @@ Instalar la última versión de los binarios necesarios
     sudo usermod -aG docker ${USER}
     su - ${USER}
 
+**Probar Docker**
+
+    docker ps -a
+
 **go**
 
 Actualizar la base de datos local de repositorios
@@ -94,3 +98,7 @@ Descargar la última versión de Hyperdedger Fabric en el directorio donde se qu
 
     curl -sSL https://bit.ly/2ysbOFE | bash -s
     
+## Pruebas finales
+Si todo ha ido bien, podremos verificar que las imagenes de Hyperledger Fabric están descargadas
+
+    docker images

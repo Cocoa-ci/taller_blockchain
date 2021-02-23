@@ -83,13 +83,13 @@ Mover el directorio *go/* a un directorio del sistema (*/usr/local/* en este cas
 
 Abrir archivo ~./profile
     
-    gedit ~./profile
+    gedit ~/.profile
     
 Agregar el siguiente contenido
 
     export PATH=$PATH:/usr/local/go/bin
 
-Probar Go
+Log out y probar Go
 
     go version
     

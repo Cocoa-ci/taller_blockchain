@@ -12,7 +12,7 @@ Las siguientes instrucciones permiten instalar el software a utilizar para despl
 * **go** 1.13 en adelante
 * **Hyperledger Fabric** 2.0 en adelante
 
-## Instalación de SW
+## Instalación de SW básico
 
 **tree**
 
@@ -26,7 +26,7 @@ Las siguientes instrucciones permiten instalar el software a utilizar para despl
     
     sudo apt install curl -y
 
-**docker**
+## Docker
 
 Instalar requerimientos para agregar un repositorio usanto HTTPS
 
@@ -63,7 +63,7 @@ Instalar la última versión de los binarios necesarios
 
     docker ps -a
 
-**go**
+## Go
 
 Actualizar la base de datos local de repositorios
 
@@ -93,7 +93,8 @@ Probar Go
 
     go version
     
-**Hyperledger Fabric**
+## Hyperledger Fabric
+
 Descargar la última versión de Hyperdedger Fabric en el directorio donde se quiera instalar. Este comando crea el directorio *fabric-samples/*
 
     curl -sSL https://bit.ly/2ysbOFE | bash -s

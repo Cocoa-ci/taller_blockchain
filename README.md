@@ -100,6 +100,10 @@ Crear directorio de trabajo
     mkdir taller
     cd taller
 
+Verificar que docker está funcionando bien
+    
+    docker ps -a
+
 Descargar la última versión de Hyperdedger Fabric en el directorio donde se quiera instalar. Este comando crea el directorio *fabric-samples/*
 
     curl -sSL https://bit.ly/2ysbOFE | bash -s

@@ -95,6 +95,11 @@ Log out y probar Go
     
 ## Hyperledger Fabric
 
+Crear directorio de trabajo
+
+    mkdir taller
+    cd taller
+
 Descargar la última versión de Hyperdedger Fabric en el directorio donde se quiera instalar. Este comando crea el directorio *fabric-samples/*
 
     curl -sSL https://bit.ly/2ysbOFE | bash -s

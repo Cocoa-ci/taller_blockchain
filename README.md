@@ -15,8 +15,10 @@ Las siguientes instrucciones permiten instalar el software a utilizar para despl
 ## Instalación de SW
 
 **tree**
-  sudo apt install tree -y
+
+    sudo apt install tree -y
 
 **git**
-  sudo apt install git -y
+
+    sudo apt install git -y
 

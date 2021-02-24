@@ -81,7 +81,7 @@ Mover el directorio *go/* a un directorio del sistema (*/usr/local/* en este cas
 
     sudo mv go /usr/local/
 
-Abrir archivo ~./profile
+Abrir archivo ~/.profile
     
     gedit ~/.profile
     

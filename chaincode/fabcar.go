@@ -1,5 +1,6 @@
 /*
 SPDX-License-Identifier: Apache-2.0
+
 */
 
 package main
@@ -140,6 +141,7 @@ func (s *SmartContract) ChangeCarOwner(ctx contractapi.TransactionContextInterfa
 	return ctx.GetStub().PutState(carNumber, carAsBytes)
 }
 
+// GetHistoryCar gets the transaction history of a given car
 func (s *SmartContract) GetHistoryCar(ctx contractapi.TransactionContextInterface, key string) (string, error) {
 
 	existing, err := ctx.GetStub().GetState(key)

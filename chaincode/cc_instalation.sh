@@ -1,4 +1,9 @@
-# Variables necesarias
+######### Preparación
+# Hacer copia de carpeta chaincode/fabcar/go
+# Eliminar fabcar 
+# Eliminar .sum
+
+# Preparar variables necesarias
 export CHANNEL_NAME=channel1
 export CHAINCODE_NAME=fabcar
 export CHAINCODE_VERSION=1

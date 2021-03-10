@@ -24,6 +24,7 @@ peer lifecycle chaincode queryinstalled
 # Installed chaincodes on peer:
 # Package ID: mycc_1:87657bee804570d2050ea11897c915a8f4e58b55b44b581d70593542b4082c8b, Label: mycc_1
 # Package ID: fabcar_1:632304e08c405194067d340681c0883304242271f6346c8cefe6de35c8f8cfc9, Label: fabcar_1
+# Cambiar ID por el generado a cada uno
 
 export CC_PACKAGEID=632304e08c405194067d340681c0883304242271f6346c8cefe6de35c8f8cfc9
 
